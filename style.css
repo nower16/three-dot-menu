@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    place-items: center;
+}
+
+
+.group-menu {
+    cursor: pointer;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 4px;
+}
+
+.frame1{
+    visibility:hidden;
+}
+
+.frame1 .info{
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom: 1px solid wheat;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+.frame1 .info:hover{
+    background-color: aquamarine;
+}
+
+.frame1 .info span{
+    margin-left: 10px;
+}
+.style {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: -180px;
+    border-radius: 10px;
+
+}
